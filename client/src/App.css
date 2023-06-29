@@ -1,0 +1,168 @@
+.main-div{
+  display: grid;
+  place-items: center;
+  min-height:100vh;
+  width:100%;
+  /* background-color: rgb(108, 112, 118); */
+}
+.child-div{
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  min-height: 56vh;
+  width:20rem;
+  background-color: rgba(255, 94, 0, 0.479);
+  transform: translateY(-25%);
+}
+figcaption{
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+.add-item{
+  padding: 10px;
+}
+.add-item input{
+  height:2rem;
+  width: 18rem;
+  border-radius: 5px;
+  font-size: 15px;
+  text-indent: 10px;
+  border: none;
+  outline: none;
+}
+.add-item i{
+  margin-left:-20px;
+  font-size: 18px;
+  cursor: pointer;
+  /* text-align: center; */
+}
+.show-items .each-items{
+  padding: 5px;
+  position: relative;
+  left: 2px;
+}
+.show-items .each-items p{
+  display: flex;
+  align-items: center;
+  height:2rem;
+  background-color: rgb(224, 85, 161);
+  width: 18rem;
+  border-radius: 5px;
+  font-size: 15px;
+  text-indent: 10px;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.show-items .each-items p:hover{
+  background-color: rgba(211, 204, 204, 0.735);
+  color: black;
+}
+
+.show-items .each-items i{
+  position: relative;
+  left: 265px;
+  top: -43px;
+  cursor: pointer;
+}
+
+.form-data {
+  display: grid;
+  place-items: center;
+}
+.link-style a{
+  display: grid;
+  place-items: center;
+}
+.link-style a:hover{
+  color: #fff;
+}
+.me-auto a {
+  text-decoration: none;
+}
+.list-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+}
+.fa-solid {
+  cursor: pointer;
+  font-size: 20px;
+  color: rgba(255, 0, 0, 0.724);
+}
+.fa-regular {
+  color: green;
+  cursor: pointer;
+  font-size: 20px;
+}
+.admin-panel {
+  display: grid;
+  place-items: center;
+}
+.para-home,
+.para-update,
+.para-admin,
+.para-demo {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  height: 4rem;
+  translate: 0 10px;
+  font-size: 18px;
+  color: #fff;
+}
+.para-home {
+  background-color: rgba(78, 168, 247, 0.79);
+}
+.para-admin {
+  background-color: rgba(182, 78, 247, 0.79);
+}
+.para-demo {
+  background-color: rgba(247, 160, 78, 0.703);
+}
+.para-update {
+  background-color: rgba(247, 78, 78, 0.79);
+}
+.footer-bottom{
+  position: absolute;
+  width: 100vw;
+  background-color: rgb(92, 91, 91);
+  bottom: 0;
+}
+.grid-two-column {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid {
+  display: grid;
+  gap: 5rem;
+}
+footer p {
+  color: #fff;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 120rem;
+  margin-left: 13rem;
+}
+.register{
+  position: relative;
+  top: 3rem;
+}
+.login{
+  position: relative;
+  top: 3rem;
+}
+h3{
+  text-align: center;
+  padding: .3rem; 
+}
+.sign_up{
+  color: red;
+}
